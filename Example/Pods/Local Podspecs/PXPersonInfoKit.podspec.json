@@ -1,0 +1,35 @@
+{
+  "name": "PXPersonInfoKit",
+  "version": "1",
+  "summary": "A short description of PXPersonInfoKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/componentizationdemo/PXPersonInfoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PAdision": "PAdision@example.com"
+  },
+  "source": {
+    "git": "https://github.com/componentizationdemo/PXPersonInfoKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PXPersonInfoKit/Classes/**/*",
+  "resource_bundles": {
+    "PXPersonInfoKit": [
+      "PXPersonInfoKit/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "PXPersonPrefrenceCatogeryKit": [
+
+    ],
+    "PXCommonKit": [
+
+    ]
+  }
+}

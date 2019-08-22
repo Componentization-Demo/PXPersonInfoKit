@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/PXCommonKit" "${PODS_CONFIGURATION_BUILD_DIR}/PXPersonInfoKit" "${PODS_CONFIGURATION_BUILD_DIR}/PXPersonPrefrenceCatogeryKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PXCommonKit/PXCommonKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PXPersonInfoKit/PXPersonInfoKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "PXCommonKit" -framework "PXPersonInfoKit" -framework "PXPersonPrefrenceCatogeryKit" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
